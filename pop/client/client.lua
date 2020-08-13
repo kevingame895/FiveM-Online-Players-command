@@ -1,5 +1,5 @@
 local playerPop = 0
-local serverLimit = 64 -- Change "64" to the amount if slots in your server
+local serverLimit = 64 -- Change "64" to the amount of slots in your server
 
 RegisterCommand('pop', function() -- Change 'pop' to the command you want 
     local message = 'There is currently '..playerPop..'/'..serverLimit..' players online!'
