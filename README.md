@@ -20,3 +20,4 @@ and change '0, 255, 255' to something else.
 
 If u need any help hmu on Discord kevingame895#8950 
 
+Credit to Bxrks for helping the proccess
