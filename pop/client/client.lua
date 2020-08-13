@@ -1,8 +1,8 @@
 local playerPop = 0
-local serverLimit = 64
+local serverLimit = 64 -- Change "64" to the amount if slots in your server
 
-RegisterCommand('pop', function()
-    local message = 'There is currently ^1'..playerPop..'/'..serverLimit..' ^0players online!'
+RegisterCommand('pop', function() -- Change 'pop' to the command you want 
+    local message = 'There is currently '..playerPop..'/'..serverLimit..' players online!'
     addClientChat(message)
 end, false)
 
@@ -16,8 +16,8 @@ end)
 
 function addClientChat(message)
     TriggerEvent ('chat:addMessage', {
-        color = {0, 255, 255},
+        color = {0, 255, 255}, -- Change the RGB colour code to the colour you want the "Server" text to be 
         multiline = true, 
-        args = {"Kev", message}
+        args = {"Server", message} -- Change "Server" to whatever you want it to be 
     })
 end
