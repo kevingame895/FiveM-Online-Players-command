@@ -5,10 +5,18 @@ To install just drag the "pop" folder in your resources folder, and make sure to
 
 Changing the command:
 If you want to change the command, simply go to client/client.lua 
-and change 'pop' to something else like 'playersonline'.  
+and change 'pop' to something else.
 
+Changing the "0/64" to the amount of slots you have:
+ If you want to change the server slots displayed, simply go to client/client.lua and change 64 to the server slots you have.
 
+Chaning "Server" when it types in chat:
+If you want to change "Server", simply go to client/client.lua 
+and change "Server" to something else.
 
+CHaning the RGB colour code to the colour you want "Server" as:
+If you want to change the colour, simply go to client/client.lua 
+and change '0, 255, 255' to something else.
 
 If u need any help hmu on Discord kevingame895#8950 
 
