@@ -24,6 +24,7 @@ end
 
 -- [Optional] This down here makes it show on keypress 
 -- Remove the "--"'s below if you want this to be working by keypress
+
 --Citizen.CreateThread(function()
     --while true do
         --Citizen.Wait(2)
