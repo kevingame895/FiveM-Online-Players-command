@@ -3,10 +3,10 @@ Config = {
     Command = 'pop',
     
     -- Change this to what  you want "Server" to be
-    ServerName = "Kev",
+    ServerName = "Server",
     
-    -- Change 64 to the number of slots you have in your server
-    ServerLimit = 64,
+    -- Change 32 to the number of slots you have in your server
+    ServerLimit = 32,
     
     -- Change the RGB colour code to the colour you want the "Server" text to be 
     RGB = {0, 255, 255},
