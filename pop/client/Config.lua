@@ -16,10 +16,10 @@ Config = {
     Keybind = 303,
 
     -- Set to true/false if you want it to be a Notification when pressing a key
-    NotifyMsg = true, 
+    NotifyMsg = false, 
     NotifyKey = 288, -- F1
     
     -- Set to true/false if you want it to be an Alert when pressing a key
-    AlertMsg = true,
+    AlertMsg = false,
     AlertKey = 182, -- L 
 }
