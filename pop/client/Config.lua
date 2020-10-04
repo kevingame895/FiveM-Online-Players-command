@@ -6,7 +6,7 @@ Config = {
     ServerName = "Server",
     
     -- Change 32 to the number of slots you have in your server
-    ServerLimit = 32,
+    ServerLimit = GetConvarInt("sv_maxclients",32),
     
     -- Change the RGB colour code to the colour you want the "Server" text to be 
     RGB = {0, 255, 255},
